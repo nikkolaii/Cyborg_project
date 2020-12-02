@@ -1,0 +1,10 @@
+import csv
+
+f = open('sensor.csv', 'r')
+
+with f:
+
+    reader = csv.reader(f)
+
+    
+

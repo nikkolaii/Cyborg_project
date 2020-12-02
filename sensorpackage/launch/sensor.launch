@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="rosaria" type="RosAria" name="RosAria" />
+	<node pkg="sensorpackage" type="accel_controller.py" name="sensor_node" />
+	<node pkg="sensorpackage" type="pose_to_pos.py" name="Pose_to_position" />
+	<node pkg="sensorpackage" type="graph.py" name="Graphing_node" />
+</launch>
